@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+    
+body{
+  
+      margin: 0%;
+    
+    background-color: black;
+}
+  /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .image{
+     
+        background: linear-gradient(to bottom, rgba(19, 12, 12, 0.7), rgba(0, 0, 0, 0.7)), url(assests/images/my-mtn-app.jpeg); background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    }
+  }
+.image{
+    
+        /*background-image: url(images/netflix.jpeg);*/
+       
+        background: linear-gradient(to bottom, rgba(19, 12, 12, 0.7), rgba(0, 0, 0, 0.7)), url(assests/images/my-mtn-app.jpeg); background-size: cover;
+    
+}
+
+
+/* If screen size is more than 1200px wide, set the font-size of <div> to 80px */
+@media screen and (min-width: 1024px) {
+    .your{
+    
+      color: white;
+      margin-left: 20%;
+      align-items: center;
+      font-family: MTNBrighterSans-Medium,Century Gothic,Arial,sans-serif;
+    line-height: 1;
+    font-weight: 500;
+      
+    }
+  }
+/* If screen size is more than 600px wide, set the font-size of <div> to 80px */
+@media screen and (min-width: 600px) {
+    .your{
+      font-size: 50px;
+      
+    }
+  }
+  
+  /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .your{
+        display: flex;
+      font-size: 30px;
+      margin-left: 0%;
+      color: white;
+      margin-left: 2%;
+         
+    }
+ 
+
+  }/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+   
+  .app{
+     color: white;
+     margin-left: 2%;
+     margin-top: 20%;
+
+  }
+}
+
+
+/* If screen size is more than 1200px wide, set the font-size of <div> to 80px */
+@media screen and (min-width: 1200px) {
+  .make{
+  font-size: 70px;
+    
+    
+  }
+}
+/* If screen size is more than 600px wide, set the font-size of <div> to 80px */
+@media screen and (min-width: 600px) {
+  .make{
+    font-size: 15px;
+    
+  }
+}
+
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  .make{
+    font-size: 15px;
+   
+       
+  }
+}
+
+
+  .key{
+     text-align: center;
+  }
